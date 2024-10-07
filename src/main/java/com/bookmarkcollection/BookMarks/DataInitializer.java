@@ -19,6 +19,16 @@ public class DataInitializer implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        repos.save(new BookMark(1,"Fav URL","https://www.youtube.com/watch?v=UhEM", Instant.now()));
+        repos.save(new BookMark(null, "SivaLabs", "https://sivalabs.in", Instant.now()));
+        repos.save(new BookMark(null, "SpringBlog", "https://spring.io/blog", Instant.now()));
+        repos.save(new BookMark(null, "Quarkus", "https://quarkus.io", Instant.now()));
+        repos.save(new BookMark(null, "Micronaut", "https://micronaut.io", Instant.now()));
+        repos.save(new BookMark(null, "JOOQ", "https://jooq.org", Instant.now()));
+        repos.save(new BookMark(null, "SivaLabs", "https://sivalabs.in", Instant.now()));
+        repos.save(new BookMark(null, "SpringBlog", "https://spring.io/blog", Instant.now()));
+        repos.save(new BookMark(null, "Quarkus", "https://quarkus.io", Instant.now()));
+        repos.save(new BookMark(null, "Micronaut", "https://micronaut.io", Instant.now()));
+        repos.save(new BookMark(null, "JOOQ", "https://jooq.org", Instant.now()));
+
     }
 }
