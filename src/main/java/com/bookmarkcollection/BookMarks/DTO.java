@@ -2,6 +2,7 @@ package com.bookmarkcollection.BookMarks;
 
 import com.bookmarkcollection.BookMarks.entities.BookMark;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.data.domain.Page;
 
@@ -9,6 +10,7 @@ import java.util.List;
 
 @Getter
 @Setter
+@NoArgsConstructor
 public class DTO {
 
     private List<BookMarkDTO> data;
